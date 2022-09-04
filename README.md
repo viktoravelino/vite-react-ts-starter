@@ -6,6 +6,8 @@ This project is a code template starter using Vite, React and TypeScript.
 
 The template uses eslint and prettier to enforce coding style and best practices. Also, [Husky](https://typicode.github.io/husky/#/) with [lint-staged](https://github.com/okonet/lint-staged) is configured to run prettier and eslint before every commit, ensuring the code follows standards.
 
+Husky will run prettier and eslint every time you run `git commit -m message`. If there is any linting error, husky will not allow the commit to be done.
+
 #### This setup the includes:
 
 - [husky](https://typicode.github.io/husky/#/), [lint-staged](https://github.com/okonet/lint-staged)
