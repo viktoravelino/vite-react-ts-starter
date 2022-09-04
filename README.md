@@ -27,6 +27,12 @@ npx degit viktoravelino/vite-react-ts-starter your-project-name
 cd your-project-name
 ```
 
+-> Initialize git inside the project **(this has to be done before installing the dependencies to initialize husky correctly)**
+
+```bash
+git init
+```
+
 -> Install the dependencies
 
 ```bash
