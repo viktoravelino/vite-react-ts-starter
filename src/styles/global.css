@@ -1,0 +1,21 @@
+/* reset components */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* makes font smoother */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* set base font */
+body,
+input,
+textarea,
+button {
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 400;
+  font-size: 1rem;
+}
